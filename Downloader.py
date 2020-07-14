@@ -133,5 +133,7 @@ class Downloader(object):
 if __name__ == '__main__':
     root = Tk()
     root.title("Youtube Mp3 Downloader")
+    # icon = PhotoImage(file='icon.png')
+    # root.iconphoto(False, icon)
     Downloader(root)
     root.mainloop()
